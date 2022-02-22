@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+ <test name="Test" >
+   <classes>
+      <class name="com.qa.rest.test.GETCallBDD" />
+      <class name ="com.qa.rest.test.PostCallBDD" />
+      <class name ="com.qa.rest.test.PUTCallBDD" />
+      <class name ="com.qa.rest.test.DeleteCallBDD" />
+   </classes>
+ </test>
+</suite>
